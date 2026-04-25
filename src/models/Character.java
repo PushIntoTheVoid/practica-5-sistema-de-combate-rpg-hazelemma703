@@ -9,7 +9,7 @@ public class Character {
         this.name = name;
         validatePositiveValue(health, "Health");
         this.health = health;
-        validatePositiveValue(attackPower, "Attack Power");
+        validatePositiveValue(attackPower, "Attack power");
         this.attackPower = attackPower;
     }
 

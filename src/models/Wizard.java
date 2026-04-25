@@ -1,0 +1,15 @@
+package models;
+
+public class Wizard extends Character {
+
+    public Wizard(String name, int health, int attackPower) {
+        super(name, health, attackPower);
+        // TODO Auto-generated constructor stub
+    }
+
+    @Override
+    public void attack() {
+        System.out.println(getName() + " casts a spell with power " + getAttackPower() + "!");
+    }
+
+}
